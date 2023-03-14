@@ -1,0 +1,28 @@
+#about {
+    padding-top: 126px;
+    height: 860px;
+    width: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about::after {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 45%;
+    background-color: white;
+}
+
+#about .card {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    width: 750px;
+    height: 500px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+#about .card-left {
+}
