@@ -3,14 +3,15 @@ import './App.css';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import React from 'react';
 
 function App() {
     return (
-        <div className="wrapper">
+        <React.Fragment>
             <Header></Header>
             <AboutMe></AboutMe>
             <Footer></Footer>
-        </div>
+        </React.Fragment>
     );
 }
 
