@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './HeaderStyle.css';
 export default function Header() {
     return (
@@ -11,19 +11,19 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <a href="/">About me</a>
+                        <Link to="/">About me</Link>
                     </li>
                     <li>
-                        <a href="/">Resume</a>
+                        <Link to="/resume">Resume</Link>
                     </li>
                     <li>
-                        <a href="/">Projects</a>
+                        <Link to="/">Projects</Link>
                     </li>
                     <li>
-                        <a href="/">Me, Myself & I</a>
+                        <Link to="/">Me, Myself & I</Link>
                     </li>
                     <li>
-                        <a href="/">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </nav>

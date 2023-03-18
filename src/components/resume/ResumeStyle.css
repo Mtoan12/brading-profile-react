@@ -1,0 +1,71 @@
+#resume {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding-top: 126px;
+}
+
+#resume .resume-content {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+#resume .resumes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    padding-bottom: 84px;
+}
+
+#resume .sub-heading {
+    font-size: 25px;
+    font-weight: 1000;
+    margin-bottom: 60px;
+}
+
+#resume .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#resume .card {
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    place-content: center;
+    padding: 0px 50px;
+}
+
+#resume .card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#resume .card-time {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#resume .card-position {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#resume .card-location,
+#resume .card-name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#resume .card-content {
+    font-size: 17px;
+    font-weight: 500;
+}

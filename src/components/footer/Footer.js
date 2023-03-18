@@ -1,3 +1,4 @@
+import React from 'react';
 import './FooterStyle.css';
 import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
