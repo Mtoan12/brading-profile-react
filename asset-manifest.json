@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/branding-profile-react/static/css/main.ccc5e579.css",
-    "main.js": "/branding-profile-react/static/js/main.94fa19da.js",
+    "main.css": "/branding-profile-react/static/css/main.c19207a7.css",
+    "main.js": "/branding-profile-react/static/js/main.efe4e5f8.js",
     "static/js/787.c1112931.chunk.js": "/branding-profile-react/static/js/787.c1112931.chunk.js",
     "static/media/avatar.jpg": "/branding-profile-react/static/media/avatar.167c0c541aeec9359460.jpg",
     "index.html": "/branding-profile-react/index.html",
-    "main.ccc5e579.css.map": "/branding-profile-react/static/css/main.ccc5e579.css.map",
-    "main.94fa19da.js.map": "/branding-profile-react/static/js/main.94fa19da.js.map",
+    "main.c19207a7.css.map": "/branding-profile-react/static/css/main.c19207a7.css.map",
+    "main.efe4e5f8.js.map": "/branding-profile-react/static/js/main.efe4e5f8.js.map",
     "787.c1112931.chunk.js.map": "/branding-profile-react/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccc5e579.css",
-    "static/js/main.94fa19da.js"
+    "static/css/main.c19207a7.css",
+    "static/js/main.efe4e5f8.js"
   ]
 }
