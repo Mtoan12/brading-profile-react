@@ -1,7 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './HeaderStyle.css';
 export default function Header() {
+    const { pathname } = useLocation();
+    const checkActive = (nav) => {
+        return pathname === nav && 'active';
+    };
     return (
         <header id="header">
             <div className="header-info">
@@ -11,19 +15,29 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">About me</Link>
+                        <Link className={`nav ${checkActive('/')}`} to="/">
+                            About me
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/resume">Resume</Link>
+                        <Link className={`nav ${checkActive('/resume')}`} to="/resume">
+                            Resume
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/">Projects</Link>
+                        <Link className={`nav ${checkActive('/projects')}`} to="/">
+                            Projects
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/">Me, Myself & I</Link>
+                        <Link className={`nav ${checkActive('/me-myself-i')}`} to="/">
+                            Me, Myself & I
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link className={`nav ${checkActive('/contact')}`} to="/contact">
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </nav>

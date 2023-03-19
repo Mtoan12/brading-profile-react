@@ -1,4 +1,6 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
 import './ResumeStyle.css';
 import ResumeItem from './ResumeItem';
 import ResumeCard from './ResumeCard';
@@ -7,7 +9,12 @@ const Resume = () => {
 
     I’m a great place for you to tell a story and let your users know a little more about you.`;
     return (
-        <div id="resume">
+        <motion.div
+            id="resume"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transitionDuration: 1, transitionTimingFunction: 'ease-in-out' }}
+        >
             <div className="resume-content">
                 <h1 className="content-title">
                     <span className="blue-box"></span> Resume
@@ -47,7 +54,7 @@ const Resume = () => {
                     </ResumeItem>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #0050ff;
     --bg-color: #e6dace;
@@ -54,11 +58,11 @@ a {
 .content-title {
     display: block;
     text-align: center;
-    padding: 130px 0px;
+    padding: 130px 0px 70px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 800;
 }

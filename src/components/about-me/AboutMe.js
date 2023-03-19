@@ -3,10 +3,16 @@ import React from 'react';
 import './AboutMeStyle.css';
 import avatar from '../../img/avatar.jpg';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 export default function AboutMe() {
     return (
-        <div id="about">
+        <motion.div
+            id="about"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0, transitionDuration: 1, transitionTimingFunction: 'ease-in-out' }}
+        >
             <div className="card">
                 <div className="card-left">
                     <div className="card-head">
@@ -34,12 +40,12 @@ export default function AboutMe() {
                     <h2>Hello</h2>
                     <h3>Here's who I am & what I do</h3>
                     <div className="card-buttons">
-                        <a className="btn card-resume-btn" href="/">
+                        <Link className="btn card-resume-btn" to="/resume">
                             RESUME
-                        </a>
-                        <a className="btn card-projects-btn" href="/">
+                        </Link>
+                        <Link className="btn card-projects-btn" href="/">
                             PROJECTS
-                        </a>
+                        </Link>
                     </div>
                     <p>
                         I'm a paragraph. Click here to add your own text and edit me. It’s easy.
@@ -53,6 +59,6 @@ export default function AboutMe() {
                     </p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }

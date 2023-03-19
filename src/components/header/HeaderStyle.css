@@ -48,7 +48,15 @@
     cursor: pointer;
 }
 
+#header nav ul li a {
+    transition: all 0.15s ease;
+}
+
 #header nav ul li a:hover {
     color: var(--primary-color);
     opacity: 0.8;
+}
+
+#header .active {
+    color: var(--primary-color);
 }
