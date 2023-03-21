@@ -45,7 +45,10 @@ a {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+    padding-top: 126px;
 }
 
 .blue-box {
@@ -65,4 +68,10 @@ a {
     gap: 8px;
     font-size: 40px;
     font-weight: 800;
+}
+
+.content-section {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
 }

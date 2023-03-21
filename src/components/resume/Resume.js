@@ -11,11 +11,12 @@ const Resume = () => {
     return (
         <motion.div
             id="resume"
+            className="container"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, transitionDuration: 1, transitionTimingFunction: 'ease-in-out' }}
         >
-            <div className="resume-content">
+            <div className="content-section">
                 <h1 className="content-title">
                     <span className="blue-box"></span> Resume
                 </h1>

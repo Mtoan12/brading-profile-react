@@ -25,7 +25,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link className={`nav ${checkActive('/projects')}`} to="/">
+                        <Link className={`nav ${checkActive('/projects')}`} to="/projects">
                             Projects
                         </Link>
                     </li>
@@ -35,7 +35,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link className={`nav ${checkActive('/contact')}`} to="/contact">
+                        <Link className={`nav ${checkActive('/contact')}`} to="/">
                             Contact
                         </Link>
                     </li>

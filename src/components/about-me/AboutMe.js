@@ -43,7 +43,7 @@ export default function AboutMe() {
                         <Link className="btn card-resume-btn" to="/resume">
                             RESUME
                         </Link>
-                        <Link className="btn card-projects-btn" href="/">
+                        <Link className="btn card-projects-btn" to="/projects">
                             PROJECTS
                         </Link>
                     </div>
