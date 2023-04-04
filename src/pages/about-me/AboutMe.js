@@ -1,6 +1,7 @@
 // import React from 'react';
 import React from 'react';
 import './AboutMeStyle.css';
+import './responsive.css';
 import avatar from '../../img/avatar.jpg';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -20,6 +21,14 @@ export default function AboutMe() {
                         <span className="full-name">Võ Mỹ Dung</span>
                         <div className="line"></div>
                         <span className="job">Project manager</span>
+                        <div className="card-left-buttons">
+                            <Link className="btn card-resume-btn" to="/resume">
+                                RESUME
+                            </Link>
+                            <Link className="btn card-projects-btn" to="/projects">
+                                PROJECTS
+                            </Link>
+                        </div>
                     </div>
                     <div className="social-icons">
                         <a href="https://facebook.com">

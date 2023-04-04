@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    #header {
+        position: relative;
+    }
+
+    #header nav {
+        display: none;
+    }
+
+    #header .header-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #header .header-info .slash {
+        display: none;
+    }
+}

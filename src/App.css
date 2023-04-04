@@ -75,3 +75,9 @@ a {
     width: 100%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 786px) {
+    html {
+        font-size: 50%;
+    }
+}

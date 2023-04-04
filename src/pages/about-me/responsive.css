@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    #about {
+        padding: 0px 20px;
+    }
+    #about::after {
+        content: '';
+        position: absolute;
+        inset: 0 0 70% 0;
+        background-color: #ffffff;
+    }
+
+    #about .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #about .card .job {
+        display: none;
+    }
+
+    #about .card .line {
+        width: 100px;
+    }
+
+    #about .card-content .card-buttons {
+        display: none;
+    }
+
+    #about .card-left-buttons {
+        display: block;
+        padding-bottom: 30px;
+    }
+}

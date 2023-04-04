@@ -18,7 +18,7 @@
 }
 
 #resume .sub-heading {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 1000;
     margin-bottom: 60px;
 }
@@ -50,22 +50,22 @@
 
 #resume .card-time {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 #resume .card-position {
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
 #resume .card-location,
 #resume .card-name {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
 #resume .card-content {
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 500;
 }

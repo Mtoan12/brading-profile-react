@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './HeaderStyle.css';
+import './responsive.css';
 export default function Header() {
     const { pathname } = useLocation();
     const checkActive = (nav) => {
@@ -10,7 +11,9 @@ export default function Header() {
         <header id="header">
             <div className="header-info">
                 <span className="full-name">Võ Mỹ Dung </span>
-                <span className="job">/ Project manager</span>
+                <span className="job">
+                    <span className="slash"> / </span>Project manager
+                </span>
             </div>
             <nav>
                 <ul>
